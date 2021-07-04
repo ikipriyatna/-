@@ -139,10 +139,11 @@
 						  
 						  .bawah{
 						   padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color:#e8491d;
-  text-align: center
+  position:fixed;
+bottom:0;
+right:0;
+left:0;
+  
 						  }
 							.na{
 				margin-top:-21px;
