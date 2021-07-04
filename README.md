@@ -143,8 +143,17 @@
 bottom:0;
 right:0;
 left:0;
+background-color:grey;
   
 						  }
+
+.check{
+text-align:center;
+color:white;
+font-size:12px;
+}
+
+
 							.na{
 				margin-top:-21px;
 				text-align:center;
@@ -217,7 +226,7 @@ function showPosition(position) {
 				<br><br><br><br>	<br><br>
 				
 				<div class="bawah">
-						<p>Check Number, Copyright &copy; 2019</p>
+						<p class="check">Check Number, Copyright &copy; 2019</p>
 				</div>
 				
 				<script>
