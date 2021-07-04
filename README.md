@@ -18,7 +18,7 @@
 
 .jud {
 				background-color:gray;
-				width:27px;
+				width:25%;
 				
 				opacity:;
 				margin-left:20px;
@@ -183,9 +183,9 @@ font-size:12px;
 												<span></span>
 												<span></span>
 								</button>
-								<h3 class="na">Rifki Priyatna</h3>
+								<h3 class="na">Check Number</h3>
 				</div>
-				
+			
 				
 				
 				
