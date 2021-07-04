@@ -8,7 +8,39 @@
 					
 				
 				<style>
-								
+						.judul{
+				background-color:gray;
+				position:fixed;
+				right:0; left:0;
+				top:0; padding:14px;
+				
+}
+
+.jud {
+				background-color:gray;
+				width:27px;
+				
+				opacity:;
+				margin-left:20px;
+				display:flex;
+				justify-content:space-between;
+				flex-direction:column;
+				margin-top:10px; margin-bottom:-30px;
+				
+}
+
+.jud span{
+				background-color:white;
+				color:red;
+				width:17px;
+				height:3px;
+				display:block;	
+				margin-left:-3px; margin-bottom:-30px;
+				
+				
+				
+}
+		
 								
 								
 						body{
@@ -120,20 +152,14 @@
 </head>
 <body>
 				
-				<header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Check</span> Number</h1>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="https://rifkipriyatna.github.io/Welcome/">Home</a></li>
-            <li class="current"><a href="about.html">About</a></li>
-            <li><a href="https://wa.me/message/ZVUGSNMOI4ZVN1">Services</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+				<div class="judul">
+								<button class="jud">
+												<span></span>
+												<span></span>
+												<span></span>
+								</button>
+								<h3 class="name">Rifki Priyatna</h3>
+				</div>
 				
 				
 				
