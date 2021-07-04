@@ -144,7 +144,7 @@
   background-color:#e8491d;
   text-align: center
 						  }
-							na{
+							.na{
 				margin-top:-21px;
 				text-align:center;
 	     font-family:cursive,"Brush Script MT";
