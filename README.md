@@ -18,8 +18,8 @@
 
 .jud {
 				background-color:gray;
-				width:25%;
-				
+				width:27px;
+				height:4px;
 				opacity:;
 				margin-left:20px;
 				display:flex;
