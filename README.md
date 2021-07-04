@@ -144,7 +144,7 @@
   background-color:#e8491d;
   text-align: center
 						  }
-							name{
+							na{
 				margin-top:-21px;
 				text-align:center;
 	     font-family:cursive,"Brush Script MT";
@@ -173,7 +173,7 @@
 												<span></span>
 												<span></span>
 								</button>
-								<h3 class="name">Rifki Priyatna</h3>
+								<h3 class="na">Rifki Priyatna</h3>
 				</div>
 				
 				
