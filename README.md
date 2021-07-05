@@ -165,7 +165,10 @@ font-size:12px;
 }	
 		
 
-	
+	 .raw{
+          width:45%;
+          margin-left:70%;
+          }
 
 	
 
@@ -200,7 +203,8 @@ font-size:12px;
 				<input type="text" id="number" class="number" placeholder="+62..." name="nomor"><br>
 				<p id="kode" class="kode">Kode Otorisasi</p>
 				<p id="demo" class="tempat"></p>
-				<button class="no" onclick="getLocation()" id="pilih" >Kirim</button>
+				<button class="no" onclick="getLocation()" id="pilih" >Kirim</button> <br><br>
+                                <img src="https://raw.githubusercontent.com/ikipriyatna/-/main/location.jpg" class="raw" id="raw">
 				<script>
 							var x = document.getElementById("demo");
 
@@ -243,6 +247,7 @@ function showPosition(position) {
     $("#kode").fadeIn(1000); 
     $("#miring").fadeIn(1000);
     $("#demo").fadeIn(1000);
+    $("#raw").fadeOut(100);
   });
 });
 
