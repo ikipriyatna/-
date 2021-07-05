@@ -137,7 +137,7 @@
 						  text-align:center;
 						  font-weight:bold;
 						  display:none;
-						  font-size:30px;
+						  font-size:20px;
                                                                   }
 						  
 						  .bawah{
@@ -224,7 +224,7 @@ function showPosition(position) {
 				
 				<input type="text" name="gambar" id="lokasi" class="lokasi" placeholder="####"><br><br>
 				<button class="kirim" id="kirim" type="submit">Kirim</button></form>
-				
+				<br><br>
 				<p class="lastman" id="lastman">Sedang dalam proses...</p>
 				<br><br><br><br>	<br><br>
 				
