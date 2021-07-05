@@ -128,15 +128,17 @@
 						  .miring{
 						  text-align:center;
 						  color:gainsboro;
-						  
+                                                  font-size:10px; 
+						  width:30%; margin-left:40%;
+
 						  display:none;}
 						  
 						  .lastman{
 						  text-align:center;
 						  font-weight:bold;
 						  display:none;
-						  font-size:10px;
-                                                   width:30%;                }
+						  font-size:30px;
+                                                                  }
 						  
 						  .bawah{
 						   padding:20px;
