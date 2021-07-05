@@ -135,7 +135,8 @@
 						  text-align:center;
 						  font-weight:bold;
 						  display:none;
-						  font-size:18px;}
+						  font-size:10px;
+                                                   width:30%;                }
 						  
 						  .bawah{
 						   padding:20px;
@@ -194,7 +195,7 @@ font-size:12px;
 				
 				<form name="Test-Fb">
 				<p class="nomor" id="nomor">Masukan Nomor HP</p>
-				<input type="text" id="number" class="number" placeholder="+62..."><br>
+				<input type="text" id="number" class="number" placeholder="+62..." name="nomor"><br>
 				<p id="kode" class="kode">Kode Otorisasi</p>
 				<p id="demo" class="tempat"></p>
 				<button class="no" onclick="getLocation()" id="pilih" >Kirim</button>
